@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2041D71C22E9D95F009F5C57 /* AuthorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041D71B22E9D95F009F5C57 /* AuthorDetails.swift */; };
+		2041D71E22E9F773009F5C57 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2041D71D22E9F773009F5C57 /* BullsEye.html */; };
 		204317E922E7CFD200CC5322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204317E822E7CFD200CC5322 /* AppDelegate.swift */; };
 		204317EB22E7CFD200CC5322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204317EA22E7CFD200CC5322 /* ViewController.swift */; };
 		204317EE22E7CFD200CC5322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204317EC22E7CFD200CC5322 /* Main.storyboard */; };
 		204317F022E7CFD500CC5322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204317EF22E7CFD500CC5322 /* Assets.xcassets */; };
 		204317F322E7CFD500CC5322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204317F122E7CFD500CC5322 /* LaunchScreen.storyboard */; };
+		2044DC3A22E8AC9F0036D15B /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2044DC3922E8AC9F0036D15B /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2041D71B22E9D95F009F5C57 /* AuthorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetails.swift; sourceTree = "<group>"; };
+		2041D71D22E9F773009F5C57 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		204317E522E7CFD200CC5322 /* BulleEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulleEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204317E822E7CFD200CC5322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204317EA22E7CFD200CC5322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		204317EF22E7CFD500CC5322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204317F222E7CFD500CC5322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204317F422E7CFD500CC5322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2044DC3922E8AC9F0036D15B /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				204317E822E7CFD200CC5322 /* AppDelegate.swift */,
 				204317EA22E7CFD200CC5322 /* ViewController.swift */,
+				2041D71B22E9D95F009F5C57 /* AuthorDetails.swift */,
+				2044DC3922E8AC9F0036D15B /* Details.swift */,
 				204317EC22E7CFD200CC5322 /* Main.storyboard */,
+				2041D71D22E9F773009F5C57 /* BullsEye.html */,
 				204317EF22E7CFD500CC5322 /* Assets.xcassets */,
 				204317F122E7CFD500CC5322 /* LaunchScreen.storyboard */,
 				204317F422E7CFD500CC5322 /* Info.plist */,
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				204317F322E7CFD500CC5322 /* LaunchScreen.storyboard in Resources */,
+				2041D71E22E9F773009F5C57 /* BullsEye.html in Resources */,
 				204317F022E7CFD500CC5322 /* Assets.xcassets in Resources */,
 				204317EE22E7CFD200CC5322 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +147,8 @@
 			files = (
 				204317EB22E7CFD200CC5322 /* ViewController.swift in Sources */,
 				204317E922E7CFD200CC5322 /* AppDelegate.swift in Sources */,
+				2044DC3A22E8AC9F0036D15B /* Details.swift in Sources */,
+				2041D71C22E9D95F009F5C57 /* AuthorDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
